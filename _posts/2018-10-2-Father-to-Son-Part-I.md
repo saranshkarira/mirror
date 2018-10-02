@@ -71,13 +71,7 @@ Divide the modeling process into two parts, The Subject(Our NN architecture) and
 
 - Cythonize: Cythonize all the code, it will reduce all the overhead due to python interpreter.
 
-
-
-
-
-
-
-
+## Next: Part-II (HyperParameter Tuning)
 
 
 
