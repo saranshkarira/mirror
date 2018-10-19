@@ -2,12 +2,10 @@
 layout: post
 title: Father to Son: Part I
 ---
-# Father to Son: Part I
-Practical advices to training your deep models efficiently
+# Father to Son : Part I
+*Practical advices to train your deep models efficiently*
 
-One should approach modeling with a principle rather than a technique, a principle not only encompasses the techniques but also creates better grounds for creating new techniques.
-
-One such principle is "Going from simple to complex", i.e. create a simpler version, make it work and introduce complexity on top of it.
+One should approach modeling with a principle rather than a technique, a principle not only encompasses the techniques but also creates better grounds for creating new techniques. One such principle is "Going from simple to complex", i.e. create a simpler version, make it work and introduce complexity on top of it.
 
 **Tip** : Always keep a copy of these simpler but working basis versions(And create new ones on top of it) such as CNNs, LSTMs etc with all the basic training and logging processes. Makes your life faster.
 
@@ -15,7 +13,7 @@ Divide the modeling process into two parts, The Subject(Our NN architecture) and
 
 ## Creating a Working Model:
 
-- The architecture should initially be minimum, a single layer, with a simple ReLU.
+- The architecture should initially be minimal, a single layer, with a simple ReLU.
 
 - You can add a BatchNorm but always keep a precaution switch in mind. While rare, the BatchNorm puts an upper limit to the NaN activation values if present. You might lose sanity debuggging your model watching everything work perfectly but still not getting your model to converge.
 
@@ -37,7 +35,7 @@ Divide the modeling process into two parts, The Subject(Our NN architecture) and
 
 - Adding bias in every layer is essential but if you are introducing a BatchNorm after it, you don't need one.
 
-- A good test of your model is by deactivating all the regularization and allow the model to overfit to the data, it tells about the capacity of the data. If your model reaches well more than 99% and ideally 100%, you're good to go!
+- A good test of your model is by deactivating all the regularization and allow the model to overfit to the data, it tells about the capacity of the model. If your model reaches well more than 99% and ideally 100%, you're good to go!
 
 - If the model overfits, well and good, now add all the regularizers, augmentations etc and switch to the Train+Valid split dataset.
 
@@ -52,6 +50,8 @@ Divide the modeling process into two parts, The Subject(Our NN architecture) and
 - If you want to perform image-reconstructions such as in U-Nets, avoid BatchNorms as it changes input signal.
 
 - If it's a spatial variance dependent problem, such as object detection, avoid Fully Connected layers in the end and switch to Global-Avg Pooling.
+
+- Use ReLU before, not after the Batch Norm
 
 - Avoid using DenseNets, they sound good on paper but take a lot of memory.
 
