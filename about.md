@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Let's figure that out later.
 
-
-### Contact me
-
-[saranshkarira@gmail.com](mailto:saranshkarira@gmail.com)
+Your benevolent king
+email: ruff@saran.sh
