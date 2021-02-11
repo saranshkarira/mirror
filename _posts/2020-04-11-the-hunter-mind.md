@@ -21,3 +21,6 @@ Theoretically, this was also priming my brain to relate "Getting Task Done" to g
 Thus, the self-actualisation part essentially comes below the physiological needs and the only way to meet these needs is through actualisation.
 
 The same could potentially be abstracted out to general lifespans, your initial years are crucial, full of vitality, potency, the power of creation, there should absolutely be no distraction during these years in forge. And don't start rocking chair if you're in the middle of hierarchy, throw it on a bell curve and you're just another Joe next door. 
+
+Here's an interesting speculation, what if there is a trade-off between focus and social competency ? 
+For all we know, food can be a trigger, to shift the mode of our minds from focus to distraction. Eating early and then getting distracted with pleasure then can be a form of zahavian signaling for all we know. That you can afford to be distracted because you're smart and fit enough to find your worm early. 
