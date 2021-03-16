@@ -24,3 +24,4 @@ The same could potentially be abstracted out to general lifespans, your initial 
 
 Here's an interesting speculation, what if there is a trade-off between focus and perceived social competency ? 
 For all we know, food can be a trigger, to shift the mode of our minds from focus to distraction. Eating early and then getting distracted with pleasure then, can be a form of zahavian signaling for all we know. That you can afford to be distracted because you're smart and fit enough to find your worm early. 
+
