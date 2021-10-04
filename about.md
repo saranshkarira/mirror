@@ -4,6 +4,5 @@ title: About
 permalink: /about/
 ---
 
+Notes to myself
 
-Your benevolent king
-email: ruff@saran.sh
